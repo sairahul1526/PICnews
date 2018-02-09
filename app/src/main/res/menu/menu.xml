@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item android:id="@+id/action_left"
+        android:icon="@mipmap/leftwhite"
+        app:showAsAction="always"
+        android:title="Left"/>
+    <item android:id="@+id/action_right"
+        android:icon="@mipmap/rightwhite"
+        app:showAsAction="always"
+        android:title="Right"/>
+    <item android:id="@+id/action_refresh"
+        android:icon="@mipmap/refresh"
+        app:showAsAction="always"
+        android:title="Refresh"/>
+    <item android:id="@+id/action_browser"
+        android:icon="@mipmap/browser"
+        app:showAsAction="always"
+        android:title="Browser"/>
+    <item android:id="@+id/action_share"
+        android:icon="@mipmap/share"
+        app:showAsAction="always"
+        android:title="Share"/>
+    <item android:id="@+id/action_close"
+        android:icon="@mipmap/close"
+        app:showAsAction="always"
+        android:title="Close"/>
+</menu>

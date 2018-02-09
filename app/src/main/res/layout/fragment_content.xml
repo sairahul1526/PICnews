@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true"
+    android:layout_centerInParent="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView7"
+        android:layout_gravity="center"
+        android:background="@drawable/d561c92aecc07108d3a425f0f2ed5950" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="asd"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#49311d"
+        android:background="#FFFFFF"
+        android:textAllCaps="true"
+        android:alpha="0.75" />
+
+
+</FrameLayout>

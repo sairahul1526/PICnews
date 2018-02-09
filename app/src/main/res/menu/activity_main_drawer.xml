@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_all"
+                android:icon="@drawable/ic_home_white_24dp"
+                android:title="ALL NEWS" />
+            <item
+                android:id="@+id/nav_entertainment"
+                android:icon="@drawable/ic_theaters_white_24dp"
+                android:title="ENTERTAINMENT" />
+            <item
+                android:id="@+id/nav_sports"
+                android:icon="@drawable/ic_directions_run_white_24dp"
+                android:title="SPORTS" />
+            <item
+                android:id="@+id/nav_money"
+                android:icon="@drawable/ic_attach_money_white_24dp"
+                android:title="MONEY" />
+            <item
+                android:id="@+id/nav_lifestyle"
+                android:icon="@drawable/ic_style_white_24dp"
+                android:title="LIFESTYLE" />
+            <item
+                android:id="@+id/nav_health"
+                android:icon="@drawable/ic_healing_white_24dp"
+                android:title="HEALTH" />
+            <item
+                android:id="@+id/nav_travel"
+                android:icon="@drawable/ic_card_travel_white_24dp"
+                android:title="TRAVEL" />
+            <item
+                android:id="@+id/nav_food"
+                android:icon="@drawable/ic_local_dining_white_24dp"
+                android:title="FOOD" />
+            <item
+                android:id="@+id/nav_autos"
+                android:icon="@drawable/ic_directions_car_white_24dp"
+                android:title="AUTOS" />
+            <item
+                android:id="@+id/nav_videos"
+                android:icon="@drawable/ic_play_arrow_white_24dp"
+                android:title="VIDEOS" />
+            <item
+                android:id="@+id/nav_saved"
+                android:icon="@drawable/ic_book_white_24dp"
+                android:title="SAVED" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_invite"
+                android:icon="@drawable/ic_menu_share"
+                android:title="INVITE" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_star_rate_white_18dp"
+                android:title="RATE" />
+    </group>
+
+</menu>
